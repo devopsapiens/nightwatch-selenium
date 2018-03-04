@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="login-command-object"
+    errors="0" failures="0" hostname="" id="" package="pageObjectTest" skipped="0"
+    tests="5" time="10.02" timestamp="Sun, 12 Nov 2017 20:06:35 GMT">
+  
+    <testcase name="Login Page Initial Render" time="1.522" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Try to login with no username or password" time="1.849" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Try to login with a username and no password" time="2.372" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Try to login with a password and no username" time="2.172" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter wrong username and password" time="2.100" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

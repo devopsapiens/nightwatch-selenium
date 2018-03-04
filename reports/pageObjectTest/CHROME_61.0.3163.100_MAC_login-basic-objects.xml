@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="4"
+            failures="1"
+            tests="5">
+
+  <testsuite name="login-basic-objects"
+    errors="4" failures="1" hostname="" id="" package="pageObjectTest" skipped="0"
+    tests="5" time="9.891" timestamp="Sun, 12 Nov 2017 20:06:25 GMT">
+  
+    <testcase name="Login Page Initial Render" time="2.074" assertions="5">  <failure message="Testing if element &lt;#username&gt; is visible. Element could not be located.">    at Object.visible (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
+    at Object.module.exports.Login Page Initial Render (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/pageObjectTest/login-basic-objects.js:8:15)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:63:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:97:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:854:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:883:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:816:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:570:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)</failure>
+<system-out>[[ATTACHMENT|/test/results/pageObjectTest/login-basic-objects/Login-Page-Initial-Render_ERROR_Nov-12-2017-200627-GMT+0000.png]]</system-out>
+      <failure message="Testing if element &lt;#password&gt; is visible. Element could not be located.">    at Object.visible (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
+    at Object.module.exports.Login Page Initial Render (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/pageObjectTest/login-basic-objects.js:9:15)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:63:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:97:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:854:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:883:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:816:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:570:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)</failure>
+<system-out>[[ATTACHMENT|/test/results/pageObjectTest/login-basic-objects/Login-Page-Initial-Render_ERROR_Nov-12-2017-200627-GMT+0000.png]]</system-out>
+      <failure message="Testing if value of &lt;input[type=submit]&gt; equals: &quot;Log In&quot;. Element or attribute could not be located.">    at Object.value (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
+    at Object.module.exports.Login Page Initial Render (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/pageObjectTest/login-basic-objects.js:10:15)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:63:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:97:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:854:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:883:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:816:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:570:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)</failure>
+<system-out>[[ATTACHMENT|/test/results/pageObjectTest/login-basic-objects/Login-Page-Initial-Render_ERROR_Nov-12-2017-200627-GMT+0000.png]]</system-out>
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Try to login with no username or password" time="2.087" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Try to login with a username and no password" time="1.945" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Try to login with a password and no username" time="1.807" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter wrong username and password" time="1.978" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

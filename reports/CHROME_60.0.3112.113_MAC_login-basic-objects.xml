@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="27"
+            failures="5"
+            tests="5">
+
+  <testsuite name="login-basic-objects"
+    errors="27" failures="5" hostname="" id="" package="login-basic-objects" skipped="0"
+    tests="5" time="25.09" timestamp="Mon, 04 Sep 2017 10:55:06 GMT">
+  
+    <testcase name="Login Page Initial Render" classname="login-basic-objects" time="6.176" assertions="5">
+
+      <failure message="Testing if element &lt;#username&gt; is visible. Element could not be located.">    at Object.module.exports.Login Page Initial Render (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:8:15)</failure>
+
+      <failure message="Testing if element &lt;#password&gt; is visible. Element could not be located.">    at Object.module.exports.Login Page Initial Render (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:9:15)</failure>
+
+      <failure message="Testing if value of &lt;input[type=submit]&gt; equals: &quot;Log In&quot;. Element or attribute could not be located.">    at Object.module.exports.Login Page Initial Render (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:10:15)</failure>
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Try to login with no username or password" classname="login-basic-objects" time="4.554" assertions="5">
+
+      <failure message="Testing if element &lt;.error&gt; is visible. Element could not be located.">    at Object.module.exports.Try to login with no username or password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:24:15)</failure>
+
+      <failure message="Testing if element &lt;.error&gt; contains text: &quot;Username and Password is empty&quot;. Element could not be located.">    at Object.module.exports.Try to login with no username or password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:25:15)</failure>
+
+      <failure message="Testing if value of &lt;#username&gt; contains: &quot;&quot;. Element could not be located.">    at Object.module.exports.Try to login with no username or password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:26:15)</failure>
+
+      <failure message="Testing if value of &lt;#password&gt; contains: &quot;&quot;. Element could not be located.">    at Object.module.exports.Try to login with no username or password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:27:15)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Try to login with a username and no password" classname="login-basic-objects" time="4.512" assertions="5">
+
+      <failure message="Testing if element &lt;.error&gt; is visible. Element could not be located.">    at Object.module.exports.Try to login with a username and no password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:41:15)</failure>
+
+      <failure message="Testing if element &lt;.error&gt; contains text: &quot;Password is empty&quot;. Element could not be located.">    at Object.module.exports.Try to login with a username and no password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:42:15)</failure>
+
+      <failure message="Testing if value of &lt;#username&gt; contains: &quot;&quot;. Element could not be located.">    at Object.module.exports.Try to login with a username and no password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:43:15)</failure>
+
+      <failure message="Testing if value of &lt;#password&gt; contains: &quot;&quot;. Element could not be located.">    at Object.module.exports.Try to login with a username and no password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:44:15)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Try to login with a password and no username" classname="login-basic-objects" time="4.456" assertions="5">
+
+      <failure message="Testing if element &lt;.error&gt; is visible. Element could not be located.">    at Object.module.exports.Try to login with a password and no username (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:58:15)</failure>
+
+      <failure message="Testing if element &lt;.error&gt; contains text: &quot;Username is empty&quot;. Element could not be located.">    at Object.module.exports.Try to login with a password and no username (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:59:15)</failure>
+
+      <failure message="Testing if value of &lt;#username&gt; contains: &quot;&quot;. Element could not be located.">    at Object.module.exports.Try to login with a password and no username (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:60:15)</failure>
+
+      <failure message="Testing if value of &lt;#password&gt; contains: &quot;&quot;. Element could not be located.">    at Object.module.exports.Try to login with a password and no username (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:61:15)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Enter wrong username and password" classname="login-basic-objects" time="5.387" assertions="5">
+
+      <failure message="Testing if element &lt;.error&gt; is visible. Element could not be located.">    at Object.module.exports.Enter wrong username and password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:76:15)</failure>
+
+      <failure message="Testing if element &lt;.error&gt; contains text: &quot;Invalid Username and/or Password&quot;. Element could not be located.">    at Object.module.exports.Enter wrong username and password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:77:15)</failure>
+
+      <failure message="Testing if value of &lt;#username&gt; contains: &quot;&quot;. Element could not be located.">    at Object.module.exports.Enter wrong username and password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:78:15)</failure>
+
+      <failure message="Testing if value of &lt;#password&gt; contains: &quot;&quot;. Element could not be located.">    at Object.module.exports.Enter wrong username and password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:79:15)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at Object.click (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.module.exports.Try to login with no username or password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:23:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at Object.setValue (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.module.exports.Try to login with a username and no password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:39:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at Object.click (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.module.exports.Try to login with a username and no password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:40:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at Object.setValue (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.module.exports.Try to login with a password and no username (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:56:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at Object.click (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.module.exports.Try to login with a password and no username (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:57:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at Object.setValue (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.module.exports.Enter wrong username and password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:73:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at Object.setValue (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.module.exports.Enter wrong username and password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:74:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at Object.click (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.module.exports.Enter wrong username and password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-basic-objects.js:75:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at Object.click (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.loginCommands.submit (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/page-objects/commandsLogin.js:16:5)
+    at Object.module.exports.Try to login with no username or password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-command-object.js:18:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at Object.setValue (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.loginCommands.fillInForm (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/page-objects/commandsLogin.js:11:5)
+    at Object.module.exports.Try to login with a username and no password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-command-object.js:30:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at Object.setValue (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.loginCommands.fillInForm (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/page-objects/commandsLogin.js:12:5)
+    at Object.module.exports.Try to login with a username and no password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-command-object.js:30:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at Object.click (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.loginCommands.submit (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/page-objects/commandsLogin.js:16:5)
+    at Object.module.exports.Try to login with a username and no password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-command-object.js:31:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at Object.setValue (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.loginCommands.fillInForm (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/page-objects/commandsLogin.js:11:5)
+    at Object.module.exports.Try to login with a password and no username (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-command-object.js:43:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at Object.setValue (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.loginCommands.fillInForm (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/page-objects/commandsLogin.js:12:5)
+    at Object.module.exports.Try to login with a password and no username (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-command-object.js:43:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at Object.click (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.loginCommands.submit (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/page-objects/commandsLogin.js:16:5)
+    at Object.module.exports.Try to login with a password and no username (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-command-object.js:44:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at Object.setValue (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.loginCommands.fillInForm (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/page-objects/commandsLogin.js:11:5)
+    at Object.module.exports.Enter wrong username and password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-command-object.js:56:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at Object.setValue (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.loginCommands.fillInForm (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/page-objects/commandsLogin.js:12:5)
+    at Object.module.exports.Enter wrong username and password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-command-object.js:56:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at Object.click (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.loginCommands.submit (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/page-objects/commandsLogin.js:16:5)
+    at Object.module.exports.Enter wrong username and password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login-command-object.js:57:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/value.js:47:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at Object.module.exports.Try to login with no username or password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login.js:17:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:415:9)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at Object.module.exports.Try to login with a username and no password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login.js:31:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:415:9)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at Object.module.exports.Try to login with a username and no password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login.js:32:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:415:9)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at Object.module.exports.Try to login with a password and no username (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login.js:46:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:415:9)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at Object.module.exports.Try to login with a password and no username (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login.js:47:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:415:9)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at Object.module.exports.Enter wrong username and password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login.js:61:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:415:9)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at Object.module.exports.Enter wrong username and password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login.js:62:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:415:9)
+ERROR: Unable to locate element: &quot;input[type=submit]&quot; using: css selector
+    at Object.module.exports.Enter wrong username and password (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/tests/login.js:63:8)
+    at Module.call (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:796:13)
+    at /Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:556:49
+    at runSingle (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:137:13)
+    at flush (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:415:9)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.error&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at command (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/erasmodominguezjimenez/Public/Aida/DevOps/devops/nightwatch-selenium/node_modules/nightwatch/lib/core/queue.js:73:8)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

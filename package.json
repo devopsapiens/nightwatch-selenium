@@ -1,0 +1,32 @@
+{
+  "name": "nightwatch-demo",
+  "version": "1.0.0",
+  "description": "Simple demo's of nightwatch UI testing",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/nightwatch/bin/nightwatch"
+  },
+  "repository": {
+    "type": "mercurial",
+    "url": ""
+  },
+  "dependencies": {
+    "chai-nightwatch": "~0.1.x",
+    "gulp": "^3.9.1",
+    "gulp-nightwatch": "^0.2.9",
+    "nightwatch": "^0.8.18"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chromedriver": "^2.25.1",
+    "mocha": "^3.1.2",
+    "nightwatch": "^0.9.11",
+    "phantomjs-prebuilt": "^2.1.14",
+    "selenium-server": "^2.53.0"
+  },
+  "bin": {
+  "nightwatch": "./bin/nightwatch"
+  }
+}

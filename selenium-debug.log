@@ -1,0 +1,837 @@
+20:20:18.852 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to ./bin/drivers/chromedriver
+Setting system property webdriver.gecko.driver to ./bin/drivers/geckodriver
+20:20:18.888 INFO - Java: Oracle Corporation 25.66-b17
+20:20:18.888 INFO - OS: Mac OS X 10.13.1 x86_64
+20:20:18.905 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+20:20:18.966 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+20:20:18.966 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+20:20:18.967 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+20:20:18.967 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+20:20:18.969 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+20:20:18.969 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+20:20:19.030 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
+20:20:19.030 INFO - Selenium Server is up and running
+20:20:19.295 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Google Demo Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:19.303 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Basic Tests / Google Demo Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 5115
+Only local connections are allowed.
+20:20:20.373 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Google Demo Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:20.386 INFO - Executing: [get: http://google.com])
+20:20:22.631 INFO - Done: [get: http://google.com]
+20:20:22.641 INFO - Executing: [find elements: By.cssSelector: body])
+20:20:22.687 INFO - Done: [find elements: By.cssSelector: body]
+20:20:22.705 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+20:20:22.748 INFO - Done: [find element: By.cssSelector: input[type=text]]
+20:20:22.755 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (952ddf41bf9168bbee17ddcbbeaa09f8)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ]])
+20:20:25.057 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (952ddf41bf9168bbee17ddcbbeaa09f8)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ]]
+20:20:26.070 INFO - Executing: [find element: By.cssSelector: #main])
+20:20:26.144 INFO - Done: [find element: By.cssSelector: #main]
+20:20:26.154 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on MAC (952ddf41bf9168bbee17ddcbbeaa09f8)] -> css selector: #main]])
+20:20:26.377 INFO - Done: [get text: 2 [[ChromeDriver: chrome on MAC (952ddf41bf9168bbee17ddcbbeaa09f8)] -> css selector: #main]]
+20:20:26.388 INFO - Executing: [delete session: 2ab46b8b-0845-441f-b9ec-dc1cee192dbf])
+20:20:26.493 INFO - Done: [delete session: 2ab46b8b-0845-441f-b9ec-dc1cee192dbf]
+20:20:26.625 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Google Page Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:26.627 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Basic Tests / Google Page Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 18543
+Only local connections are allowed.
+20:20:26.763 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:26.779 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 38238
+Only local connections are allowed.
+20:20:27.785 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Google Page Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:27.950 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:27.955 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:28.403 INFO - Executing: [find elements: By.cssSelector: body])
+20:20:28.719 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'macerasmo.local', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/tb/dvxq01kn4zz8zx89tf3k68t00000gn/T/.org.chromium.Chromium.AiCyqB}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3b57d750e7b96dabf4fac54e19354fcc
+*** Element info: {Using=css selector, value=#username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20:20:28.728 WARN - Exception: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'macerasmo.local', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/tb/dvxq01kn4zz8zx89tf3k68t00000gn/T/.org.chromium.Chromium.AiCyqB}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3b57d750e7b96dabf4fac54e19354fcc
+*** Element info: {Using=css selector, value=#username}
+20:20:28.758 INFO - Done: [find elements: By.cssSelector: body]
+20:20:28.775 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:28.775 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (3b57d750e7b96dabf4fac54e19354fcc)] -> css selector: body]])
+20:20:29.053 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#password"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'macerasmo.local', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/tb/dvxq01kn4zz8zx89tf3k68t00000gn/T/.org.chromium.Chromium.AiCyqB}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3b57d750e7b96dabf4fac54e19354fcc
+*** Element info: {Using=css selector, value=#password}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20:20:29.060 WARN - Exception: no such element: Unable to locate element: {"method":"css selector","selector":"#password"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'macerasmo.local', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/tb/dvxq01kn4zz8zx89tf3k68t00000gn/T/.org.chromium.Chromium.AiCyqB}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3b57d750e7b96dabf4fac54e19354fcc
+*** Element info: {Using=css selector, value=#password}
+20:20:29.074 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (3b57d750e7b96dabf4fac54e19354fcc)] -> css selector: body]]
+20:20:29.100 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:20:29.290 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[type=submit]"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'macerasmo.local', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/tb/dvxq01kn4zz8zx89tf3k68t00000gn/T/.org.chromium.Chromium.AiCyqB}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3b57d750e7b96dabf4fac54e19354fcc
+*** Element info: {Using=css selector, value=input[type=submit]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20:20:29.297 WARN - Exception: no such element: Unable to locate element: {"method":"css selector","selector":"input[type=submit]"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'macerasmo.local', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/tb/dvxq01kn4zz8zx89tf3k68t00000gn/T/.org.chromium.Chromium.AiCyqB}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3b57d750e7b96dabf4fac54e19354fcc
+*** Element info: {Using=css selector, value=input[type=submit]}
+20:20:29.318 INFO - Executing: [find elements: By.cssSelector: .error])
+20:20:29.344 INFO - Done: [find elements: By.cssSelector: .error]
+20:20:29.349 INFO - Executing: [delete session: 4e431a8b-e128-47db-a0fc-254db363334b])
+20:20:29.428 INFO - Done: [delete session: 4e431a8b-e128-47db-a0fc-254db363334b]
+20:20:29.434 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:29.435 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 6048
+Only local connections are allowed.
+20:20:30.240 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:30.251 INFO - Executing: [get: http://dev.matthewroach.me/login/])
+20:20:30.789 INFO - Done: [get: http://dev.matthewroach.me/login/]
+20:20:30.794 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:20:30.826 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:20:30.832 INFO - Executing: [click: 0 [[ChromeDriver: chrome on MAC (bc8a1e0f956bb939dc720be13101f692)] -> css selector: input[type=submit]]])
+20:20:31.373 INFO - Done: [click: 0 [[ChromeDriver: chrome on MAC (bc8a1e0f956bb939dc720be13101f692)] -> css selector: input[type=submit]]]
+20:20:32.382 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:32.409 INFO - Done: [find element: By.cssSelector: .error]
+20:20:32.413 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (bc8a1e0f956bb939dc720be13101f692)] -> css selector: .error]])
+20:20:32.458 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (bc8a1e0f956bb939dc720be13101f692)] -> css selector: .error]]
+20:20:32.491 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:32.508 INFO - Done: [find element: By.cssSelector: .error]
+20:20:32.512 INFO - Executing: [get text: 1 [[ChromeDriver: chrome on MAC (bc8a1e0f956bb939dc720be13101f692)] -> css selector: .error]])
+20:20:32.575 INFO - Done: [get text: 1 [[ChromeDriver: chrome on MAC (bc8a1e0f956bb939dc720be13101f692)] -> css selector: .error]]
+20:20:32.580 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:32.622 INFO - Done: [find element: By.cssSelector: #username]
+20:20:32.625 INFO - Executing: [get element attribute: 2 [[ChromeDriver: chrome on MAC (bc8a1e0f956bb939dc720be13101f692)] -> css selector: #username], value])
+20:20:32.636 INFO - Done: [get element attribute: 2 [[ChromeDriver: chrome on MAC (bc8a1e0f956bb939dc720be13101f692)] -> css selector: #username], value]
+20:20:32.641 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:32.673 INFO - Done: [find element: By.cssSelector: #password]
+20:20:32.677 INFO - Executing: [get element attribute: 3 [[ChromeDriver: chrome on MAC (bc8a1e0f956bb939dc720be13101f692)] -> css selector: #password], value])
+20:20:32.692 INFO - Done: [get element attribute: 3 [[ChromeDriver: chrome on MAC (bc8a1e0f956bb939dc720be13101f692)] -> css selector: #password], value]
+20:20:32.699 INFO - Executing: [delete session: 778cf1fd-10f8-43ea-9a22-14fd92c57e37])
+20:20:32.782 INFO - Done: [delete session: 778cf1fd-10f8-43ea-9a22-14fd92c57e37]
+20:20:32.789 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:32.791 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 46772
+Only local connections are allowed.
+20:20:33.638 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:33.643 INFO - Executing: [get: http://dev.matthewroach.me/login/])
+20:20:34.595 INFO - Done: [get: http://dev.matthewroach.me/login/]
+20:20:34.601 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:34.628 INFO - Done: [find element: By.cssSelector: #username]
+20:20:34.633 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on MAC (661329f883c444a86fb8360df764f698)] -> css selector: #username], [a, b, c]])
+20:20:34.754 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on MAC (661329f883c444a86fb8360df764f698)] -> css selector: #username], [a, b, c]]
+20:20:34.758 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:20:34.788 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:20:34.790 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (661329f883c444a86fb8360df764f698)] -> css selector: input[type=submit]]])
+20:20:35.028 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (661329f883c444a86fb8360df764f698)] -> css selector: input[type=submit]]]
+20:20:36.033 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:36.054 INFO - Done: [find element: By.cssSelector: .error]
+20:20:36.057 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (661329f883c444a86fb8360df764f698)] -> css selector: .error]])
+20:20:36.077 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (661329f883c444a86fb8360df764f698)] -> css selector: .error]]
+20:20:36.081 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:36.090 INFO - Done: [find element: By.cssSelector: .error]
+20:20:36.093 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on MAC (661329f883c444a86fb8360df764f698)] -> css selector: .error]])
+20:20:36.121 INFO - Done: [get text: 2 [[ChromeDriver: chrome on MAC (661329f883c444a86fb8360df764f698)] -> css selector: .error]]
+20:20:36.125 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:36.135 INFO - Done: [find element: By.cssSelector: #username]
+20:20:36.137 INFO - Executing: [get element attribute: 3 [[ChromeDriver: chrome on MAC (661329f883c444a86fb8360df764f698)] -> css selector: #username], value])
+20:20:36.146 INFO - Done: [get element attribute: 3 [[ChromeDriver: chrome on MAC (661329f883c444a86fb8360df764f698)] -> css selector: #username], value]
+20:20:36.156 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:36.179 INFO - Done: [find element: By.cssSelector: #password]
+20:20:36.182 INFO - Executing: [get element attribute: 4 [[ChromeDriver: chrome on MAC (661329f883c444a86fb8360df764f698)] -> css selector: #password], value])
+20:20:36.190 INFO - Done: [get element attribute: 4 [[ChromeDriver: chrome on MAC (661329f883c444a86fb8360df764f698)] -> css selector: #password], value]
+20:20:36.193 INFO - Executing: [delete session: f6a6c069-5ce8-4d0b-82b7-68058481880a])
+20:20:36.268 INFO - Done: [delete session: f6a6c069-5ce8-4d0b-82b7-68058481880a]
+20:20:36.272 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:36.273 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 24960
+Only local connections are allowed.
+20:20:37.071 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:37.076 INFO - Executing: [get: http://dev.matthewroach.me/login/])
+20:20:37.761 INFO - Done: [get: http://dev.matthewroach.me/login/]
+20:20:37.766 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:37.797 INFO - Done: [find element: By.cssSelector: #password]
+20:20:37.804 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on MAC (e9c270518e9e90ea2512a36dfdc6ad10)] -> css selector: #password], [t, e, s, t]])
+20:20:37.924 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on MAC (e9c270518e9e90ea2512a36dfdc6ad10)] -> css selector: #password], [t, e, s, t]]
+20:20:37.927 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:20:37.955 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:20:37.957 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (e9c270518e9e90ea2512a36dfdc6ad10)] -> css selector: input[type=submit]]])
+20:20:38.269 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (e9c270518e9e90ea2512a36dfdc6ad10)] -> css selector: input[type=submit]]]
+20:20:39.275 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:39.300 INFO - Done: [find element: By.cssSelector: .error]
+20:20:39.302 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (e9c270518e9e90ea2512a36dfdc6ad10)] -> css selector: .error]])
+20:20:39.321 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (e9c270518e9e90ea2512a36dfdc6ad10)] -> css selector: .error]]
+20:20:39.323 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:39.333 INFO - Done: [find element: By.cssSelector: .error]
+20:20:39.336 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on MAC (e9c270518e9e90ea2512a36dfdc6ad10)] -> css selector: .error]])
+20:20:39.365 INFO - Done: [get text: 2 [[ChromeDriver: chrome on MAC (e9c270518e9e90ea2512a36dfdc6ad10)] -> css selector: .error]]
+20:20:39.368 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:39.400 INFO - Done: [find element: By.cssSelector: #username]
+20:20:39.402 INFO - Executing: [get element attribute: 3 [[ChromeDriver: chrome on MAC (e9c270518e9e90ea2512a36dfdc6ad10)] -> css selector: #username], value])
+20:20:39.410 INFO - Done: [get element attribute: 3 [[ChromeDriver: chrome on MAC (e9c270518e9e90ea2512a36dfdc6ad10)] -> css selector: #username], value]
+20:20:39.414 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:39.424 INFO - Done: [find element: By.cssSelector: #password]
+20:20:39.425 INFO - Executing: [get element attribute: 4 [[ChromeDriver: chrome on MAC (e9c270518e9e90ea2512a36dfdc6ad10)] -> css selector: #password], value])
+20:20:39.434 INFO - Done: [get element attribute: 4 [[ChromeDriver: chrome on MAC (e9c270518e9e90ea2512a36dfdc6ad10)] -> css selector: #password], value]
+20:20:39.438 INFO - Executing: [delete session: e85d93aa-2d8a-4e0f-895f-c8619a04a996])
+20:20:39.519 INFO - Done: [delete session: e85d93aa-2d8a-4e0f-895f-c8619a04a996]
+20:20:39.525 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:39.526 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 23218
+Only local connections are allowed.
+20:20:40.527 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:40.539 INFO - Executing: [get: http://dev.matthewroach.me/login/])
+20:20:41.063 INFO - Done: [get: http://dev.matthewroach.me/login/]
+20:20:41.068 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:41.095 INFO - Done: [find element: By.cssSelector: #username]
+20:20:41.099 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on MAC (2cf6ef9fc67b57d90da3d3cb5b216da7)] -> css selector: #username], [a, b, c]])
+20:20:41.207 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on MAC (2cf6ef9fc67b57d90da3d3cb5b216da7)] -> css selector: #username], [a, b, c]]
+20:20:41.212 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:41.245 INFO - Done: [find element: By.cssSelector: #password]
+20:20:41.250 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (2cf6ef9fc67b57d90da3d3cb5b216da7)] -> css selector: #password], [1, 2, 3]])
+20:20:41.322 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (2cf6ef9fc67b57d90da3d3cb5b216da7)] -> css selector: #password], [1, 2, 3]]
+20:20:41.324 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:20:41.373 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:20:41.375 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (2cf6ef9fc67b57d90da3d3cb5b216da7)] -> css selector: input[type=submit]]])
+20:20:41.776 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (2cf6ef9fc67b57d90da3d3cb5b216da7)] -> css selector: input[type=submit]]]
+20:20:42.781 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:42.828 INFO - Done: [find element: By.cssSelector: .error]
+20:20:42.832 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (2cf6ef9fc67b57d90da3d3cb5b216da7)] -> css selector: .error]])
+20:20:42.874 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (2cf6ef9fc67b57d90da3d3cb5b216da7)] -> css selector: .error]]
+20:20:42.877 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:42.889 INFO - Done: [find element: By.cssSelector: .error]
+20:20:42.891 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on MAC (2cf6ef9fc67b57d90da3d3cb5b216da7)] -> css selector: .error]])
+20:20:42.920 INFO - Done: [get text: 3 [[ChromeDriver: chrome on MAC (2cf6ef9fc67b57d90da3d3cb5b216da7)] -> css selector: .error]]
+20:20:42.923 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:42.931 INFO - Done: [find element: By.cssSelector: #username]
+20:20:42.934 INFO - Executing: [get element attribute: 4 [[ChromeDriver: chrome on MAC (2cf6ef9fc67b57d90da3d3cb5b216da7)] -> css selector: #username], value])
+20:20:42.942 INFO - Done: [get element attribute: 4 [[ChromeDriver: chrome on MAC (2cf6ef9fc67b57d90da3d3cb5b216da7)] -> css selector: #username], value]
+20:20:42.946 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:42.958 INFO - Done: [find element: By.cssSelector: #password]
+20:20:42.960 INFO - Executing: [get element attribute: 5 [[ChromeDriver: chrome on MAC (2cf6ef9fc67b57d90da3d3cb5b216da7)] -> css selector: #password], value])
+20:20:42.971 INFO - Done: [get element attribute: 5 [[ChromeDriver: chrome on MAC (2cf6ef9fc67b57d90da3d3cb5b216da7)] -> css selector: #password], value]
+20:20:42.973 INFO - Executing: [delete session: 571ccccb-aeb5-4b14-9f64-fc5cfce1b909])
+20:20:43.048 INFO - Done: [delete session: 571ccccb-aeb5-4b14-9f64-fc5cfce1b909]
+20:20:43.279 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Nightwatch By Index, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:43.280 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Basic Tests / Nightwatch By Index, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 7624
+Only local connections are allowed.
+20:20:43.425 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:43.426 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 10654
+Only local connections are allowed.
+20:20:44.414 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Basic Tests / Nightwatch By Index, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:44.501 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:44.507 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:44.889 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 137 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'macerasmo.local', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/tb/dvxq01kn4zz8zx89tf3k68t00000gn/T/.org.chromium.Chromium.CWz0g4}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f2b0784e6b6d773a079ce3922a0b977f
+*** Element info: {Using=css selector, value=#username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20:20:44.895 WARN - Exception: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 137 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'macerasmo.local', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/tb/dvxq01kn4zz8zx89tf3k68t00000gn/T/.org.chromium.Chromium.CWz0g4}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f2b0784e6b6d773a079ce3922a0b977f
+*** Element info: {Using=css selector, value=#username}
+20:20:44.930 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:44.979 INFO - Executing: [find elements: By.cssSelector: body])
+20:20:45.248 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#password"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'macerasmo.local', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/tb/dvxq01kn4zz8zx89tf3k68t00000gn/T/.org.chromium.Chromium.CWz0g4}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f2b0784e6b6d773a079ce3922a0b977f
+*** Element info: {Using=css selector, value=#password}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20:20:45.255 WARN - Exception: no such element: Unable to locate element: {"method":"css selector","selector":"#password"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'macerasmo.local', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/tb/dvxq01kn4zz8zx89tf3k68t00000gn/T/.org.chromium.Chromium.CWz0g4}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f2b0784e6b6d773a079ce3922a0b977f
+*** Element info: {Using=css selector, value=#password}
+20:20:45.291 INFO - Done: [find elements: By.cssSelector: body]
+20:20:45.293 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:20:45.295 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (f2b0784e6b6d773a079ce3922a0b977f)] -> css selector: body]])
+20:20:45.519 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[type=submit]"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'macerasmo.local', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/tb/dvxq01kn4zz8zx89tf3k68t00000gn/T/.org.chromium.Chromium.CWz0g4}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f2b0784e6b6d773a079ce3922a0b977f
+*** Element info: {Using=css selector, value=input[type=submit]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+20:20:45.527 WARN - Exception: no such element: Unable to locate element: {"method":"css selector","selector":"input[type=submit]"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'macerasmo.local', ip: '192.168.1.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6), userDataDir=/var/folders/tb/dvxq01kn4zz8zx89tf3k68t00000gn/T/.org.chromium.Chromium.CWz0g4}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f2b0784e6b6d773a079ce3922a0b977f
+*** Element info: {Using=css selector, value=input[type=submit]}
+20:20:45.546 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (f2b0784e6b6d773a079ce3922a0b977f)] -> css selector: body]]
+20:20:45.553 INFO - Executing: [find elements: By.cssSelector: .error])
+20:20:45.592 INFO - Done: [find elements: By.cssSelector: .error]
+20:20:45.596 INFO - Executing: [delete session: 694774fa-f7c7-4319-ad1e-e8daff94e511])
+20:20:45.678 INFO - Done: [delete session: 694774fa-f7c7-4319-ad1e-e8daff94e511]
+20:20:45.694 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:45.695 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 37087
+Only local connections are allowed.
+20:20:46.481 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:46.485 INFO - Executing: [get: http://dev.matthewroach.me/login/])
+20:20:47.096 INFO - Done: [get: http://dev.matthewroach.me/login/]
+20:20:47.100 INFO - Executing: [find elements: By.cssSelector: body])
+20:20:47.193 INFO - Done: [find elements: By.cssSelector: body]
+20:20:47.196 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (a11a7ba8180951024659bf9963596e8c)] -> css selector: body]])
+20:20:47.256 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (a11a7ba8180951024659bf9963596e8c)] -> css selector: body]]
+20:20:47.259 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:20:47.309 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:20:47.311 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (a11a7ba8180951024659bf9963596e8c)] -> css selector: input[type=submit]]])
+20:20:47.742 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (a11a7ba8180951024659bf9963596e8c)] -> css selector: input[type=submit]]]
+20:20:47.747 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:47.787 INFO - Done: [find element: By.cssSelector: .error]
+20:20:47.790 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (a11a7ba8180951024659bf9963596e8c)] -> css selector: .error]])
+20:20:47.815 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (a11a7ba8180951024659bf9963596e8c)] -> css selector: .error]]
+20:20:47.820 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:47.837 INFO - Done: [find element: By.cssSelector: .error]
+20:20:47.840 INFO - Executing: [get text: 2 [[ChromeDriver: chrome on MAC (a11a7ba8180951024659bf9963596e8c)] -> css selector: .error]])
+20:20:47.910 INFO - Done: [get text: 2 [[ChromeDriver: chrome on MAC (a11a7ba8180951024659bf9963596e8c)] -> css selector: .error]]
+20:20:47.914 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:47.944 INFO - Done: [find element: By.cssSelector: #username]
+20:20:47.946 INFO - Executing: [get element attribute: 3 [[ChromeDriver: chrome on MAC (a11a7ba8180951024659bf9963596e8c)] -> css selector: #username], value])
+20:20:47.955 INFO - Done: [get element attribute: 3 [[ChromeDriver: chrome on MAC (a11a7ba8180951024659bf9963596e8c)] -> css selector: #username], value]
+20:20:47.959 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:48.002 INFO - Done: [find element: By.cssSelector: #password]
+20:20:48.008 INFO - Executing: [get element attribute: 4 [[ChromeDriver: chrome on MAC (a11a7ba8180951024659bf9963596e8c)] -> css selector: #password], value])
+20:20:48.023 INFO - Done: [get element attribute: 4 [[ChromeDriver: chrome on MAC (a11a7ba8180951024659bf9963596e8c)] -> css selector: #password], value]
+20:20:48.026 INFO - Executing: [delete session: 446b3afd-572d-4284-b539-5902d6f49d38])
+20:20:48.110 INFO - Done: [delete session: 446b3afd-572d-4284-b539-5902d6f49d38]
+20:20:48.124 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:48.126 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 13640
+Only local connections are allowed.
+20:20:48.960 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:48.963 INFO - Executing: [get: http://dev.matthewroach.me/login/])
+20:20:49.623 INFO - Done: [get: http://dev.matthewroach.me/login/]
+20:20:49.626 INFO - Executing: [find elements: By.cssSelector: body])
+20:20:49.660 INFO - Done: [find elements: By.cssSelector: body]
+20:20:49.662 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (b5d73858719746cd4e5e21836e76b597)] -> css selector: body]])
+20:20:49.688 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (b5d73858719746cd4e5e21836e76b597)] -> css selector: body]]
+20:20:49.691 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:49.727 INFO - Done: [find element: By.cssSelector: #username]
+20:20:49.730 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (b5d73858719746cd4e5e21836e76b597)] -> css selector: #username], [a, b, c]])
+20:20:49.864 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (b5d73858719746cd4e5e21836e76b597)] -> css selector: #username], [a, b, c]]
+20:20:49.869 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:20:49.935 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:20:49.940 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (b5d73858719746cd4e5e21836e76b597)] -> css selector: input[type=submit]]])
+20:20:50.230 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (b5d73858719746cd4e5e21836e76b597)] -> css selector: input[type=submit]]]
+20:20:50.234 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:50.291 INFO - Done: [find element: By.cssSelector: .error]
+20:20:50.294 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (b5d73858719746cd4e5e21836e76b597)] -> css selector: .error]])
+20:20:50.330 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (b5d73858719746cd4e5e21836e76b597)] -> css selector: .error]]
+20:20:50.338 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:50.350 INFO - Done: [find element: By.cssSelector: .error]
+20:20:50.353 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on MAC (b5d73858719746cd4e5e21836e76b597)] -> css selector: .error]])
+20:20:50.386 INFO - Done: [get text: 3 [[ChromeDriver: chrome on MAC (b5d73858719746cd4e5e21836e76b597)] -> css selector: .error]]
+20:20:50.390 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:50.406 INFO - Done: [find element: By.cssSelector: #username]
+20:20:50.410 INFO - Executing: [get element attribute: 4 [[ChromeDriver: chrome on MAC (b5d73858719746cd4e5e21836e76b597)] -> css selector: #username], value])
+20:20:50.421 INFO - Done: [get element attribute: 4 [[ChromeDriver: chrome on MAC (b5d73858719746cd4e5e21836e76b597)] -> css selector: #username], value]
+20:20:50.426 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:50.447 INFO - Done: [find element: By.cssSelector: #password]
+20:20:50.450 INFO - Executing: [get element attribute: 5 [[ChromeDriver: chrome on MAC (b5d73858719746cd4e5e21836e76b597)] -> css selector: #password], value])
+20:20:50.460 INFO - Done: [get element attribute: 5 [[ChromeDriver: chrome on MAC (b5d73858719746cd4e5e21836e76b597)] -> css selector: #password], value]
+20:20:50.462 INFO - Executing: [delete session: 2aca0dc3-4dcf-4b8e-96f7-1519d06bbaea])
+20:20:50.545 INFO - Done: [delete session: 2aca0dc3-4dcf-4b8e-96f7-1519d06bbaea]
+20:20:50.554 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:50.555 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 46677
+Only local connections are allowed.
+20:20:51.420 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:51.424 INFO - Executing: [get: http://dev.matthewroach.me/login/])
+20:20:51.871 INFO - Done: [get: http://dev.matthewroach.me/login/]
+20:20:51.876 INFO - Executing: [find elements: By.cssSelector: body])
+20:20:51.915 INFO - Done: [find elements: By.cssSelector: body]
+20:20:51.917 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (e6ff4f6c45d9c72220bc23e49b401ff0)] -> css selector: body]])
+20:20:51.960 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (e6ff4f6c45d9c72220bc23e49b401ff0)] -> css selector: body]]
+20:20:51.964 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:52.005 INFO - Done: [find element: By.cssSelector: #password]
+20:20:52.009 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (e6ff4f6c45d9c72220bc23e49b401ff0)] -> css selector: #password], [t, e, s, t]])
+20:20:52.165 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (e6ff4f6c45d9c72220bc23e49b401ff0)] -> css selector: #password], [t, e, s, t]]
+20:20:52.169 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:20:52.197 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:20:52.199 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (e6ff4f6c45d9c72220bc23e49b401ff0)] -> css selector: input[type=submit]]])
+20:20:52.565 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (e6ff4f6c45d9c72220bc23e49b401ff0)] -> css selector: input[type=submit]]]
+20:20:52.570 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:52.594 INFO - Done: [find element: By.cssSelector: .error]
+20:20:52.602 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (e6ff4f6c45d9c72220bc23e49b401ff0)] -> css selector: .error]])
+20:20:52.643 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (e6ff4f6c45d9c72220bc23e49b401ff0)] -> css selector: .error]]
+20:20:52.652 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:52.662 INFO - Done: [find element: By.cssSelector: .error]
+20:20:52.665 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on MAC (e6ff4f6c45d9c72220bc23e49b401ff0)] -> css selector: .error]])
+20:20:52.695 INFO - Done: [get text: 3 [[ChromeDriver: chrome on MAC (e6ff4f6c45d9c72220bc23e49b401ff0)] -> css selector: .error]]
+20:20:52.698 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:52.727 INFO - Done: [find element: By.cssSelector: #username]
+20:20:52.729 INFO - Executing: [get element attribute: 4 [[ChromeDriver: chrome on MAC (e6ff4f6c45d9c72220bc23e49b401ff0)] -> css selector: #username], value])
+20:20:52.738 INFO - Done: [get element attribute: 4 [[ChromeDriver: chrome on MAC (e6ff4f6c45d9c72220bc23e49b401ff0)] -> css selector: #username], value]
+20:20:52.741 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:52.752 INFO - Done: [find element: By.cssSelector: #password]
+20:20:52.756 INFO - Executing: [get element attribute: 5 [[ChromeDriver: chrome on MAC (e6ff4f6c45d9c72220bc23e49b401ff0)] -> css selector: #password], value])
+20:20:52.767 INFO - Done: [get element attribute: 5 [[ChromeDriver: chrome on MAC (e6ff4f6c45d9c72220bc23e49b401ff0)] -> css selector: #password], value]
+20:20:52.770 INFO - Executing: [delete session: 7d508dc0-acff-4984-9eba-4b4b549cf16b])
+20:20:52.853 INFO - Done: [delete session: 7d508dc0-acff-4984-9eba-4b4b549cf16b]
+20:20:52.864 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:52.865 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 24382
+Only local connections are allowed.
+20:20:53.811 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Basic Objects, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:53.818 INFO - Executing: [get: http://dev.matthewroach.me/login/])
+20:20:54.314 INFO - Done: [get: http://dev.matthewroach.me/login/]
+20:20:54.316 INFO - Executing: [find elements: By.cssSelector: body])
+20:20:54.339 INFO - Done: [find elements: By.cssSelector: body]
+20:20:54.342 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: body]])
+20:20:54.362 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: body]]
+20:20:54.364 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:54.392 INFO - Done: [find element: By.cssSelector: #username]
+20:20:54.397 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: #username], [a, b, c]])
+20:20:54.522 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: #username], [a, b, c]]
+20:20:54.527 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:54.569 INFO - Done: [find element: By.cssSelector: #password]
+20:20:54.572 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: #password], [1, 2, 3]])
+20:20:54.659 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: #password], [1, 2, 3]]
+20:20:54.663 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:20:54.687 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:20:54.690 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: input[type=submit]]])
+20:20:55.023 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: input[type=submit]]]
+20:20:55.029 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:55.049 INFO - Done: [find element: By.cssSelector: .error]
+20:20:55.051 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: .error]])
+20:20:55.068 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: .error]]
+20:20:55.071 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:55.080 INFO - Done: [find element: By.cssSelector: .error]
+20:20:55.082 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: .error]])
+20:20:55.115 INFO - Done: [get text: 4 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: .error]]
+20:20:55.126 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:55.142 INFO - Done: [find element: By.cssSelector: #username]
+20:20:55.145 INFO - Executing: [get element attribute: 5 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: #username], value])
+20:20:55.158 INFO - Done: [get element attribute: 5 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: #username], value]
+20:20:55.162 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:55.186 INFO - Done: [find element: By.cssSelector: #password]
+20:20:55.191 INFO - Executing: [get element attribute: 6 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: #password], value])
+20:20:55.205 INFO - Done: [get element attribute: 6 [[ChromeDriver: chrome on MAC (098390fcd27a86a2710323b53166cc7a)] -> css selector: #password], value]
+20:20:55.208 INFO - Executing: [delete session: 26ad94e9-a6b4-4d76-aaf8-5dedaadbdde6])
+20:20:55.300 INFO - Done: [delete session: 26ad94e9-a6b4-4d76-aaf8-5dedaadbdde6]
+20:20:55.422 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:55.423 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 46698
+Only local connections are allowed.
+20:20:56.138 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:56.143 INFO - Executing: [get: http://dev.matthewroach.me/login/])
+20:20:56.615 INFO - Done: [get: http://dev.matthewroach.me/login/]
+20:20:56.617 INFO - Executing: [find elements: By.cssSelector: body])
+20:20:56.640 INFO - Done: [find elements: By.cssSelector: body]
+20:20:56.643 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (1749828daa90b333bcce1579f22f9ada)] -> css selector: body]])
+20:20:56.662 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (1749828daa90b333bcce1579f22f9ada)] -> css selector: body]]
+20:20:56.665 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:56.697 INFO - Done: [find element: By.cssSelector: #username]
+20:20:56.698 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (1749828daa90b333bcce1579f22f9ada)] -> css selector: #username]])
+20:20:56.718 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (1749828daa90b333bcce1579f22f9ada)] -> css selector: #username]]
+20:20:56.722 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:56.748 INFO - Done: [find element: By.cssSelector: #password]
+20:20:56.751 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (1749828daa90b333bcce1579f22f9ada)] -> css selector: #password]])
+20:20:56.781 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (1749828daa90b333bcce1579f22f9ada)] -> css selector: #password]]
+20:20:56.784 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:20:56.806 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:20:56.808 INFO - Executing: [get element attribute: 3 [[ChromeDriver: chrome on MAC (1749828daa90b333bcce1579f22f9ada)] -> css selector: input[type=submit]], value])
+20:20:56.819 INFO - Done: [get element attribute: 3 [[ChromeDriver: chrome on MAC (1749828daa90b333bcce1579f22f9ada)] -> css selector: input[type=submit]], value]
+20:20:56.822 INFO - Executing: [find elements: By.cssSelector: .error])
+20:20:56.848 INFO - Done: [find elements: By.cssSelector: .error]
+20:20:56.850 INFO - Executing: [delete session: db0a31f3-1fdf-4888-aa0c-ec421da1bed9])
+20:20:56.928 INFO - Done: [delete session: db0a31f3-1fdf-4888-aa0c-ec421da1bed9]
+20:20:56.937 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:56.938 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 33757
+Only local connections are allowed.
+20:20:57.656 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:57.660 INFO - Executing: [get: http://dev.matthewroach.me/login/])
+20:20:58.055 INFO - Done: [get: http://dev.matthewroach.me/login/]
+20:20:58.059 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:20:58.082 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:20:58.084 INFO - Executing: [get element attribute: 0 [[ChromeDriver: chrome on MAC (2eeb8396795076393689e4e7bde04c4a)] -> css selector: input[type=submit]], value])
+20:20:58.093 INFO - Done: [get element attribute: 0 [[ChromeDriver: chrome on MAC (2eeb8396795076393689e4e7bde04c4a)] -> css selector: input[type=submit]], value]
+20:20:58.096 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:20:58.107 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:20:58.111 INFO - Executing: [click: 0 [[ChromeDriver: chrome on MAC (2eeb8396795076393689e4e7bde04c4a)] -> css selector: input[type=submit]]])
+20:20:58.396 INFO - Done: [click: 0 [[ChromeDriver: chrome on MAC (2eeb8396795076393689e4e7bde04c4a)] -> css selector: input[type=submit]]]
+20:20:58.399 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:58.420 INFO - Done: [find element: By.cssSelector: .error]
+20:20:58.422 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (2eeb8396795076393689e4e7bde04c4a)] -> css selector: .error]])
+20:20:58.441 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (2eeb8396795076393689e4e7bde04c4a)] -> css selector: .error]]
+20:20:58.445 INFO - Executing: [find element: By.cssSelector: .error])
+20:20:58.454 INFO - Done: [find element: By.cssSelector: .error]
+20:20:58.457 INFO - Executing: [get text: 1 [[ChromeDriver: chrome on MAC (2eeb8396795076393689e4e7bde04c4a)] -> css selector: .error]])
+20:20:58.487 INFO - Done: [get text: 1 [[ChromeDriver: chrome on MAC (2eeb8396795076393689e4e7bde04c4a)] -> css selector: .error]]
+20:20:58.489 INFO - Executing: [find element: By.cssSelector: #username])
+20:20:58.509 INFO - Done: [find element: By.cssSelector: #username]
+20:20:58.511 INFO - Executing: [get element attribute: 2 [[ChromeDriver: chrome on MAC (2eeb8396795076393689e4e7bde04c4a)] -> css selector: #username], value])
+20:20:58.523 INFO - Done: [get element attribute: 2 [[ChromeDriver: chrome on MAC (2eeb8396795076393689e4e7bde04c4a)] -> css selector: #username], value]
+20:20:58.528 INFO - Executing: [find element: By.cssSelector: #password])
+20:20:58.553 INFO - Done: [find element: By.cssSelector: #password]
+20:20:58.555 INFO - Executing: [get element attribute: 3 [[ChromeDriver: chrome on MAC (2eeb8396795076393689e4e7bde04c4a)] -> css selector: #password], value])
+20:20:58.565 INFO - Done: [get element attribute: 3 [[ChromeDriver: chrome on MAC (2eeb8396795076393689e4e7bde04c4a)] -> css selector: #password], value]
+20:20:58.568 INFO - Executing: [delete session: a3b4728c-d90c-43d0-a665-dc46c71b88b8])
+20:20:58.645 INFO - Done: [delete session: a3b4728c-d90c-43d0-a665-dc46c71b88b8]
+20:20:58.660 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:20:58.661 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 3679
+Only local connections are allowed.
+20:20:59.470 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:20:59.473 INFO - Executing: [get: http://dev.matthewroach.me/login/])
+20:20:59.998 INFO - Done: [get: http://dev.matthewroach.me/login/]
+20:21:00.001 INFO - Executing: [find elements: By.cssSelector: body])
+20:21:00.029 INFO - Done: [find elements: By.cssSelector: body]
+20:21:00.030 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: body]])
+20:21:00.048 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: body]]
+20:21:00.051 INFO - Executing: [find element: By.cssSelector: #username])
+20:21:00.082 INFO - Done: [find element: By.cssSelector: #username]
+20:21:00.085 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: #username], [a, b, c]])
+20:21:00.202 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: #username], [a, b, c]]
+20:21:00.203 INFO - Executing: [find element: By.cssSelector: #password])
+20:21:00.234 INFO - Done: [find element: By.cssSelector: #password]
+20:21:00.236 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: #password], []])
+20:21:00.305 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: #password], []]
+20:21:00.312 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:21:00.334 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:21:00.336 INFO - Executing: [get element attribute: 3 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: input[type=submit]], value])
+20:21:00.345 INFO - Done: [get element attribute: 3 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: input[type=submit]], value]
+20:21:00.347 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:21:00.356 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:21:00.357 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: input[type=submit]]])
+20:21:00.660 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: input[type=submit]]]
+20:21:00.672 INFO - Executing: [find element: By.cssSelector: .error])
+20:21:00.699 INFO - Done: [find element: By.cssSelector: .error]
+20:21:00.702 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: .error]])
+20:21:00.719 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: .error]]
+20:21:00.722 INFO - Executing: [find element: By.cssSelector: .error])
+20:21:00.731 INFO - Done: [find element: By.cssSelector: .error]
+20:21:00.732 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: .error]])
+20:21:00.760 INFO - Done: [get text: 4 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: .error]]
+20:21:00.763 INFO - Executing: [find element: By.cssSelector: #username])
+20:21:00.772 INFO - Done: [find element: By.cssSelector: #username]
+20:21:00.774 INFO - Executing: [get element attribute: 5 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: #username], value])
+20:21:00.785 INFO - Done: [get element attribute: 5 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: #username], value]
+20:21:00.788 INFO - Executing: [find element: By.cssSelector: #password])
+20:21:00.796 INFO - Done: [find element: By.cssSelector: #password]
+20:21:00.798 INFO - Executing: [get element attribute: 6 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: #password], value])
+20:21:00.805 INFO - Done: [get element attribute: 6 [[ChromeDriver: chrome on MAC (2ae992be6a85234cea55288146d930ea)] -> css selector: #password], value]
+20:21:00.808 INFO - Executing: [delete session: f3da118d-df64-477d-8716-f8e349759fac])
+20:21:00.884 INFO - Done: [delete session: f3da118d-df64-477d-8716-f8e349759fac]
+20:21:00.892 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:21:00.893 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 27789
+Only local connections are allowed.
+20:21:01.736 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:21:01.739 INFO - Executing: [get: http://dev.matthewroach.me/login/])
+20:21:02.173 INFO - Done: [get: http://dev.matthewroach.me/login/]
+20:21:02.176 INFO - Executing: [find elements: By.cssSelector: body])
+20:21:02.199 INFO - Done: [find elements: By.cssSelector: body]
+20:21:02.201 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: body]])
+20:21:02.222 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: body]]
+20:21:02.224 INFO - Executing: [find element: By.cssSelector: #username])
+20:21:02.257 INFO - Done: [find element: By.cssSelector: #username]
+20:21:02.261 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: #username], []])
+20:21:02.310 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: #username], []]
+20:21:02.314 INFO - Executing: [find element: By.cssSelector: #password])
+20:21:02.341 INFO - Done: [find element: By.cssSelector: #password]
+20:21:02.345 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: #password], [t, e, s, t]])
+20:21:02.447 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: #password], [t, e, s, t]]
+20:21:02.450 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:21:02.470 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:21:02.473 INFO - Executing: [get element attribute: 3 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: input[type=submit]], value])
+20:21:02.482 INFO - Done: [get element attribute: 3 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: input[type=submit]], value]
+20:21:02.485 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:21:02.497 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:21:02.501 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: input[type=submit]]])
+20:21:02.830 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: input[type=submit]]]
+20:21:02.833 INFO - Executing: [find element: By.cssSelector: .error])
+20:21:02.857 INFO - Done: [find element: By.cssSelector: .error]
+20:21:02.859 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: .error]])
+20:21:02.878 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: .error]]
+20:21:02.882 INFO - Executing: [find element: By.cssSelector: .error])
+20:21:02.892 INFO - Done: [find element: By.cssSelector: .error]
+20:21:02.894 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: .error]])
+20:21:02.931 INFO - Done: [get text: 4 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: .error]]
+20:21:02.934 INFO - Executing: [find element: By.cssSelector: #username])
+20:21:02.941 INFO - Done: [find element: By.cssSelector: #username]
+20:21:02.944 INFO - Executing: [get element attribute: 5 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: #username], value])
+20:21:02.952 INFO - Done: [get element attribute: 5 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: #username], value]
+20:21:02.956 INFO - Executing: [find element: By.cssSelector: #password])
+20:21:02.969 INFO - Done: [find element: By.cssSelector: #password]
+20:21:02.971 INFO - Executing: [get element attribute: 6 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: #password], value])
+20:21:02.980 INFO - Done: [get element attribute: 6 [[ChromeDriver: chrome on MAC (626fc4177fb50c69db9f5907edc94362)] -> css selector: #password], value]
+20:21:02.982 INFO - Executing: [delete session: fb608ff0-81b4-48d3-aa28-d8169da89b18])
+20:21:03.059 INFO - Done: [delete session: fb608ff0-81b4-48d3-aa28-d8169da89b18]
+20:21:03.074 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:21:03.075 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6) on port 34437
+Only local connections are allowed.
+20:21:03.766 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Page Object Test / Login Command Object, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:21:03.770 INFO - Executing: [get: http://dev.matthewroach.me/login/])
+20:21:04.202 INFO - Done: [get: http://dev.matthewroach.me/login/]
+20:21:04.204 INFO - Executing: [find elements: By.cssSelector: body])
+20:21:04.233 INFO - Done: [find elements: By.cssSelector: body]
+20:21:04.234 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: body]])
+20:21:04.252 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: body]]
+20:21:04.254 INFO - Executing: [find element: By.cssSelector: #username])
+20:21:04.284 INFO - Done: [find element: By.cssSelector: #username]
+20:21:04.287 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: #username], [a, b, c]])
+20:21:04.384 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: #username], [a, b, c]]
+20:21:04.386 INFO - Executing: [find element: By.cssSelector: #password])
+20:21:04.406 INFO - Done: [find element: By.cssSelector: #password]
+20:21:04.408 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: #password], [1, 2, 3]])
+20:21:04.487 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: #password], [1, 2, 3]]
+20:21:04.489 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:21:04.512 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:21:04.514 INFO - Executing: [get element attribute: 3 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: input[type=submit]], value])
+20:21:04.524 INFO - Done: [get element attribute: 3 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: input[type=submit]], value]
+20:21:04.527 INFO - Executing: [find element: By.cssSelector: input[type=submit]])
+20:21:04.538 INFO - Done: [find element: By.cssSelector: input[type=submit]]
+20:21:04.540 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: input[type=submit]]])
+20:21:04.817 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: input[type=submit]]]
+20:21:04.819 INFO - Executing: [find element: By.cssSelector: .error])
+20:21:04.843 INFO - Done: [find element: By.cssSelector: .error]
+20:21:04.845 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: .error]])
+20:21:04.864 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: .error]]
+20:21:04.867 INFO - Executing: [find element: By.cssSelector: .error])
+20:21:04.878 INFO - Done: [find element: By.cssSelector: .error]
+20:21:04.881 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: .error]])
+20:21:04.904 INFO - Done: [get text: 4 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: .error]]
+20:21:04.906 INFO - Executing: [find element: By.cssSelector: #username])
+20:21:04.918 INFO - Done: [find element: By.cssSelector: #username]
+20:21:04.920 INFO - Executing: [get element attribute: 5 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: #username], value])
+20:21:04.933 INFO - Done: [get element attribute: 5 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: #username], value]
+20:21:04.936 INFO - Executing: [find element: By.cssSelector: #password])
+20:21:04.947 INFO - Done: [find element: By.cssSelector: #password]
+20:21:04.948 INFO - Executing: [get element attribute: 6 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: #password], value])
+20:21:04.955 INFO - Done: [get element attribute: 6 [[ChromeDriver: chrome on MAC (3e2e207a078ef3715f2a058b39957b4d)] -> css selector: #password], value]
+20:21:04.959 INFO - Executing: [delete session: 9114b0cb-bbff-47e7-9658-7a231f41e3c6])
+20:21:05.036 INFO - Done: [delete session: 9114b0cb-bbff-47e7-9658-7a231f41e3c6]
